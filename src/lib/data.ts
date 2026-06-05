@@ -1,0 +1,86 @@
+import type { Project, Skill, NavItem } from '@/types';
+
+export const navItems: NavItem[] = [
+  { label: 'Home', href: '/' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
+];
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'E-Commerce Platform',
+    description: 'A full-featured e-commerce solution with product management, cart, and checkout flow built with React and Node.js.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'Task Management App',
+    description: 'Collaborative task manager with real-time updates, drag-and-drop boards, and team analytics dashboard.',
+    tags: ['React', 'TypeScript', 'Firebase', 'Tailwind'],
+    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'AI Chat Interface',
+    description: 'Conversational AI interface with streaming responses, conversation history, and customizable personas.',
+    tags: ['React', 'OpenAI', 'Streaming', 'UI/UX'],
+    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true,
+  },
+  {
+    id: '4',
+    title: 'Analytics Dashboard',
+    description: 'Real-time analytics platform with interactive charts, KPI tracking, and automated reporting.',
+    tags: ['React', 'D3.js', 'REST API', 'Charts'],
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false,
+  },
+  {
+    id: '5',
+    title: 'Social Media App',
+    description: 'Mobile-first social platform with feeds, stories, messaging, and content recommendations.',
+    tags: ['React Native', 'GraphQL', 'PostgreSQL'],
+    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false,
+  },
+  {
+    id: '6',
+    title: 'Portfolio CMS',
+    description: 'Headless CMS-powered portfolio with markdown support, SEO optimization, and Jamstack deployment.',
+    tags: ['Next.js', 'Sanity', 'Vercel', 'SEO'],
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false,
+  },
+];
+
+export const skills: Skill[] = [
+  { name: 'React', level: 95, category: 'Frontend' },
+  { name: 'TypeScript', level: 90, category: 'Frontend' },
+  { name: 'Next.js', level: 85, category: 'Frontend' },
+  { name: 'Tailwind CSS', level: 90, category: 'Frontend' },
+  { name: 'Node.js', level: 80, category: 'Backend' },
+  { name: 'GraphQL', level: 75, category: 'Backend' },
+  { name: 'PostgreSQL', level: 70, category: 'Backend' },
+  { name: 'REST APIs', level: 85, category: 'Backend' },
+  { name: 'Docker', level: 65, category: 'DevOps' },
+  { name: 'AWS', level: 60, category: 'DevOps' },
+  { name: 'Git', level: 90, category: 'DevOps' },
+  { name: 'CI/CD', level: 70, category: 'DevOps' },
+];
